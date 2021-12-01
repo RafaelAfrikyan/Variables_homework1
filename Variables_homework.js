@@ -46,3 +46,6 @@ undefined == null // true
 undefined === null // false
 null == "\n0\n" // false
 null === +"\n0\n" // false
+
+//JSinfo task_3
+alert( null || 2 || undefined ) // 2
