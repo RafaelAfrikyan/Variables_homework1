@@ -28,7 +28,7 @@ b = a - b;
 a = a - b;
 console.log(a, b)
 
-//JSinfo task_1
+//JSinfo  task_1
 
 let name = "Ilya";
 
