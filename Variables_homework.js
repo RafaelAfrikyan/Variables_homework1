@@ -11,3 +11,11 @@ let n = i++ % 5;
 let b = i++;
 console.log(b)
 //answer 0
+
+//3
+let a = 10;
+let b = 3;
+let c = a + b;
+a = c - a;
+b = c - b;
+console.log(a, b)
