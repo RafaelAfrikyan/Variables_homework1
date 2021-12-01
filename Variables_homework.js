@@ -27,3 +27,22 @@ a = a + b;
 b = a - b;
 a = a - b;
 console.log(a, b)
+
+//JSinfo task_1
+
+let name = "Ilya";
+
+alert( `hello ${1}` ); // hello 1
+
+alert( `hello ${"name"}` ); // hello name
+
+alert( `hello ${name}` ); // hello Ilya
+
+//JSinfo task_2
+5 > 4 // true
+"apple" > "pineapple" // false
+"2" > "12" // true
+undefined == null // true
+undefined === null // false
+null == "\n0\n" // false
+null === +"\n0\n" // false
