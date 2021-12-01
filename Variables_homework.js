@@ -19,3 +19,11 @@ let c = a + b;
 a = c - a;
 b = c - b;
 console.log(a, b)
+
+//4
+let a = 10;
+let b = 3;
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(a, b)
